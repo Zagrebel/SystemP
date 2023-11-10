@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	cout << "-                                                   Калькулятор                                           -" << endl;
+	int num1, num2, result;
+	char op;
+
+	cout << " Введите первое число: " << endl;
+	cin >> num1;
+
+	cout << " Обозначьте действие [+, -, /, *]" << endl;
+	cin >> op;
+
+	cout << " Введите второе число: " << endl;
+	cin >> num2;
+
+	if (op == '+')
+	{
+		result = num1 + num2;
+	}
+	else if (op == '-')
+	{
+		result = num1 - num2;
+	}
+	else if (op == '/')
+	{
+		result = num1 / num2;
+	}
+	else if (op == '*')
+	{
+		result = num1 * num2;
+	}
+	else {
+		cout << "ERROR" << endl;
+	}
+	result 0;
+}
