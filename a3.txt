@@ -1,0 +1,170 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    int op;
+    cout << "Переводчик" << endl;
+    cout << "[1]Русские слова" << endl;
+    cout << "[2]Английские слова" << endl;
+    cout << "[3]Выйти" << endl;
+    cout << "Выберите нужное:";
+    cin >> op;
+    system("cls");
+    switch (op)
+    {
+    case 1:
+        cout << "Русские слова" << endl;
+        cout << "[1] Привет" << endl;
+        cout << "[2] Мир" << endl;
+        cout << "[3] Слово" << endl;
+        cout << "[4] Дорога" << endl;
+        cout << "[5] Мяч" << endl;
+        cout << "[6] Стол" << endl;
+        cout << "[7] Огонь" << endl;
+        cout << "[8] Солнце" << endl;
+        cout << "[9] Вода" << endl;
+        cout << "[10] Земля" << endl;
+        cout << "[11] Воздух" << endl;
+        cout << "[12] Машина" << endl;
+        cout << "[13] Кот" << endl;
+        cout << "[14] Собака" << endl;
+        cout << "[15] Октябрь" << endl;
+        cout << "Выберите номер слова:";
+        cin >> op;
+        system("cls");
+
+        switch (op)
+        {
+        case 1:
+            cout << "Перевод: Привет - Hello" << endl << endl;
+            break;
+        case 2:
+            cout << "Перевод: Мир  - World" << endl << endl;
+            break;
+        case 3:
+            cout << "Перевод: Слово - Word" << endl << endl;
+            break;
+        case 4:
+            cout << "Перевод: Дорога - Road" << endl << endl;
+            break;
+        case 5:
+            cout << "Перевод: Мяч - Ball" << endl << endl;
+            break;
+        case 6:
+            cout << "Перевод: Стол - Table" << endl << endl;
+            break;
+        case 7:
+            cout << "Перевод: Огонь - Fire" << endl << endl;
+            break;
+        case 8:
+            cout << "Перевод: Солнце - Sun" << endl << endl;
+            break;
+        case 9:
+            cout << "Перевод: Вода - Water" << endl << endl;
+            break;
+        case 10:
+            cout << "Перевод: Земля - Earth" << endl << endl;
+            break;
+        case 11:
+            cout << "Перевод: Воздух - Air" << endl << endl;
+            break;
+        case 12:
+            cout << "Перевод: Машина - Car" << endl << endl;
+            break;
+        case 13:
+            cout << "Перевод: Кот - Cat" << endl << endl;
+            break;
+        case 14:
+            cout << "Перевод: Собака - Dog" << endl << endl;
+            break;
+        case 15:
+            cout << "Перевод: Октябрь - October" << endl << endl;
+            break;
+        default:
+            cout << "Выберите номер из списка" << endl << endl;
+            break;
+        }
+        break;
+    case 2:
+        cout << "Английские слова" << endl;
+        cout << "[1] Hello" << endl;
+        cout << "[2] World" << endl;
+        cout << "[3] Word" << endl;
+        cout << "[4] Road" << endl;
+        cout << "[5] Ball" << endl;
+        cout << "[6] Table" << endl;
+        cout << "[7] Fire" << endl;
+        cout << "[8] Sun" << endl;
+        cout << "[9] Water" << endl;
+        cout << "[10] Earth" << endl;
+        cout << "[11] Air" << endl;
+        cout << "[12] Car" << endl;
+        cout << "[13] Cat" << endl;
+        cout << "[14] Dog" << endl;
+        cout << "[15] October" << endl;
+        cout << "Выберите номер слова:";
+        cin >> op;
+        system("cls");
+
+        switch (op)
+        {
+        case 1:
+            cout << "Перевод: Hello - Привет" << endl << endl;
+            break;
+        case 2:
+            cout << "Перевод: World - Мир" << endl << endl;
+            break;
+        case 3:
+            cout << "Перевод: Word - Слово" << endl << endl;
+            break;
+        case 4:
+            cout << "Перевод: Road - Дорога" << endl << endl;
+            break;
+        case 5:
+            cout << "Перевод: Ball - Мяч" << endl << endl;
+            break;
+        case 6:
+            cout << "Перевод: Table - Стол" << endl << endl;
+            break;
+        case 7:
+            cout << "Перевод: Fire - Огонь" << endl << endl;
+            break;
+        case 8:
+            cout << "Перевод: Sun - Солнце" << endl << endl;
+            break;
+        case 9:
+            cout << "Перевод: Water - Вода" << endl << endl;
+            break;
+        case 10:
+            cout << "Перевод: Earth - Земля" << endl << endl;
+            break;
+        case 11:
+            cout << "Перевод: Air - Воздух" << endl << endl;
+            break;
+        case 12:
+            cout << "Перевод: Car - Машина" << endl << endl;
+            break;
+        case 13:
+            cout << "Перевод: Cat - Кот" << endl << endl;
+            break;
+        case 14:
+            cout << "Перевод: Dog - Собака" << endl << endl;
+            break;
+        case 15:
+            cout << "Перевод: October - Октябрь" << endl << endl;
+            break;
+        default:
+            cout << "Выберите номер из списка" << endl << endl;
+            break;
+        }
+
+        break;
+    default:
+        cout << "Выберите номер из списка" << endl << endl;
+        break;
+    }
+
+    return 0;
+}
